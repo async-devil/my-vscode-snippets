@@ -45,5 +45,14 @@
     "body": [
       "//${1:Color}----------------------------------------${2:Text}--------------------------------------------------*/"
     ]
+  },
+  "Express typescript request and response arrow function": {
+    "prefix": "exreqres",
+    "scope": "typescript",
+    "body": [
+      "(req: Request, res: Response) => {",
+      "\t$1",
+      "}"
+    ]
   }
 }
